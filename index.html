@@ -1,16 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./stay.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./stay.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
     <title>Document</title>
-</head>
-<body>
-    
-
-
+  </head>
+  <body class="">
+    <div class="container">
+      <header>
+        <div class="title">Produc List</div>
+        <div class="icon-cart">
+          <i class="fa-solid fa-cart-shopping"></i>
+          <span>0</span>
+        </div>
+      </header>
+      <div class="ListProduct">
+        <div class="item">
+          <img src="./img/book.png" alt="" />
+          <h2>Name Produc</h2>
+          <div class="price">$200</div>
+          <button class="addCart">Add Cart to</button>
+        </div>
+      </div>
+    </div>
+    <div class="cartTab">
+      <h1>Shoping Cart</h1>
+      <div class="ListCaret">
+        <div class="item">
+          <div class="image">
+            <img src="./img/book.png" alt="" />
+          </div>
+          <div class="name">Name</div>
+          <div class="totelPrice">$200</div>
+          <div class="qunatity">
+            <span class="minus"><</span>
+            <span>1</span>
+            <span class="plus">></span>
+          </div>
+        </div>
+      </div>
+      <div class="btn">
+        <button class="close">Close</button>
+        <button class="chekOur">Chesk Out</button>
+      </div>
+    </div>
 
     <script src="./main.js"></script>
-</body>
+  </body>
 </html>

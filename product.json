@@ -1,0 +1,51 @@
+[
+    {
+        "id":1,
+        "name":"LDO1 Shoping",
+        "price":200,
+        "image" :"./img/book.png"
+    },
+    {
+        "id":2,
+        "name":"LDO2 SHOPING",
+        "price":260,
+        "image" :"./img/book.png"
+    },
+    {
+        "id":3,
+        "name":"LDO3 SHOPING",
+        "price":400,
+        "image" :"./img/book.png"
+    },
+    {
+        "id":4,
+        "name":"LDO4 SHOPING",
+        "price":210,
+        "image" :"./img/book.png"
+    },
+    {
+        "id":5,
+        "name":"LDO5 SHOPING",
+        "price":500,
+        "image" :"./img/book.png"
+    },
+    {
+        "id":6,
+        "name":"LDO6 SHOPING",
+        "price":270,
+        "image" :"./img/book.png"
+    },
+    {
+        "id":7,
+        "name":"LDO7 SHOPING",
+        "price":209,
+        "image" :"./img/book.png"
+    },
+    {
+        "id":8,
+        "name":"LDO8 SHOPING",
+        "price":218,
+        "image" :"./img/book.png"
+    }
+
+]

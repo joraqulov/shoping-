@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+font-family: sans-serif;    
+}
+.container{
+    width: 1200px;
+    max-width: 90vw;
+    margin: auto;
+    margin-top: 10px;
+    /* text-align: center; */
+    padding-top: 10px;
+    transition:transform .5s;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    padding: 20px 0;
+    font-size: 37px;
+}
+.icon-cart span{
+height: 30px;
+width: 30px;
+text-align: center;
+background-color: red;
+justify-content: center;
+align-items: center;
+margin-top: 10px;
+color: #fff;
+font-size: 25px;
+position: fixed;
+border-radius: 50%;
+ font-weight: 600;
+
+}
+.ListProduct .item img{
+    width: 70%;
+    filter:drop-shadow(0 50px 20px #0009 ) ;
+}
+.ListProduct{
+    margin-top: 20px;
+    width: 100%;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(4, 1ft);
+    gap: 20px;
+}
+.ListProduct .item{
+    text-align: center;
+    background-color: rgba(205, 204, 204, 0.652);
+    width: 140px;
+    height: 210px;
+    padding: 20px;
+    border-radius: 20px;
+}
+.ListProduct .item h2{
+    font-weight: 500;
+    font-size: larger;
+    margin: 10px;
+}
+.ListProduct .item .price{
+    letter-spacing: 7px;
+font-size: small;
+font-weight: 600;
+margin-top: 20px ;    
+}
+.ListProduct .item button{
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+}
+.cartTab{
+    width: 400px;
+    background-color: rgb(70, 68, 68);
+    color: white;
+    position: fixed;
+    inset:0 -400px 0 auto;
+display: grid;
+grid-template-rows: 70px 1fr 70px;
+transition: .5s;
+}
+body.showCart .cartTab{
+    inset:0 0 0 auto;
+}
+body.showCart .container{
+    transform: translateX(-250px);
+}
+.cartTab h1{
+    padding: 20px;
+    margin: 0px;
+    font-weight: 300;
+}
+.cartTab .btn{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.cartTab .btn button{
+    background-color: aqua;
+    border: none;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 20px;
+}
+.cartTab .btn .close{
+    background: #ffff;
+}
+.cartTab .ListCaret .item img{
+    width: 100%;
+}
+.cartTab .ListCaret .item{
+    display: grid;
+    grid-template-columns: 70px  150px 70px 1fr;
+    gap: 10px;
+    text-align: center;
+    align-items: center;
+}
+.ListCaret .qunatity span{
+    display: inline-block;
+    width: 20px ;
+    height: 20px;
+    background-color: #eee;
+    color: #555;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.ListCaret .qunatity span:nth-child(2){
+    background-color: transparent;
+    color: #eee;
+}
+
+ListCaret .item:nth-child(even){
+    background-color: #0001;
+}
+.ListCaret{
+    overflow: auto;
+}
+.ListCaret::-webkit-scrollbar{
+    width: 0;
+}
