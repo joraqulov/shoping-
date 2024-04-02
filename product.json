@@ -3,7 +3,7 @@
         "id":1,
         "name":"LDO1 Shoping",
         "price":200,
-        "image" :"./img/book.png"
+        "image" :""
     },
     {
         "id":2,
